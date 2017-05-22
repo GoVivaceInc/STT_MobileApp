@@ -1,0 +1,2 @@
+android.app.Application
+Speech_Transcriptor.Speech_Transcriptor

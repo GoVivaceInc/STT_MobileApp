@@ -1,0 +1,4 @@
+Speech_Transcriptor.MainActivity, Speech_Transcriptor;md55cb8c57a21eac728900b7ec411ae6ee6.MainActivity
+Speech_Transcriptor.MainActivity, Speech_Transcriptor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55cb8c57a21eac728900b7ec411ae6ee6.MainActivity
+Speech_Transcriptor.MainActivity;md55cb8c57a21eac728900b7ec411ae6ee6.MainActivity
+speech_transcriptor.MainActivity;md55cb8c57a21eac728900b7ec411ae6ee6.MainActivity

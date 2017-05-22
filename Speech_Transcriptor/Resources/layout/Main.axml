@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Speech Transcription"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/llStartRecordingButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Start Recording"
+        android:layout_below="@id/title"
+        android:layout_alignLeft="@id/title" />
+    <Button
+        android:id="@+id/llEndRecordingButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="End Recording"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/llStartRecordingButton" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageview"
+        android:visibility="invisible"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/llEndRecordingButton"
+        android:src="@drawable/record_25px" />
+    <TextView
+        android:id="@+id/status1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/imageview"
+        android:padding="5dp"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/editText1"
+        android:editable="false"
+        android:scrollbars="vertical"
+        android:isScrollContainer="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:background="@android:color/white"
+        android:focusable="true"
+        android:fitsSystemWindows="true"
+        android:layout_below="@id/llStartRecordingButton"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="0.0dp"
+        android:gravity="top" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/status"
+            android:text=" "
+            android:background="#5D8AA8"
+            android:padding="8dip" />
+    </LinearLayout>
+</RelativeLayout>
